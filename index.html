@@ -1,25 +1,83 @@
 <!DOCTYPE html>
-<html class="h-100">
+<html lang="en-GB">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
-  <title>groove logic</title>
-  <style type="text/css">
-    body {
-      background-color: #1D2227;
-    }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Groove Logic · Tools for professional music workflows</title>
+<meta name="description" content="Groove Logic makes software for people who work in music, on stage and in the studio.">
+<meta name="theme-color" content="#17160F">
+<meta property="og:title" content="Groove Logic">
+<meta property="og:description" content="Tools for professional music workflows.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@700&family=Archivo:wght@400;500;600&family=Fragment+Mono&display=swap" rel="stylesheet"><style>body{margin:0;background:#17160F;color:#F2EDE3;font-family:'Archivo',sans-serif;-webkit-font-smoothing:antialiased}a{color:#F2EDE3;text-decoration:none}a:hover{color:#E2381F}::selection{background:#E2381F;color:#F2EDE3}</style>
+<style>html{scroll-behavior:smooth}@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}</style>
 </head>
-<body class="h-100 flex flex-column justify-center items-center sans-serif white-80">
+<body>
+<div data-screen-label="Landing" style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;min-height:100vh;display:flex;flex-direction:column">
 
-  <div class="flex-ns items-center">
-    <p class="mv0 ph5 flex-shrink-0"><img src="groove-logic.svg" class="w3"></p>
-    <div class="mt5 mt0-ns ph5 bl-ns b--white-20 measure">
-      <p class="mv3 lh-title">bespoke software consultancy and development for the music industry</p>
-      <p class="mv3 lh-title"><a href="mailto:richard@groovelogic.co.uk" class="blue dim">richard@groovelogic.co.uk</a></p>
+  <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:24px;padding:32px 0 0">
+    <a href="/" style="display:block" aria-label="Groove Logic home"><svg width="196" height="46" viewBox="0 -1340 5900 1580" style="display:block;overflow:visible"><g transform="translate(-302.6 -1505) scale(6.333)"><path d="M68 232 C83 228.67 153.67 219.33 158 212 C162.33 204.67 96.67 196.67 94 188 C91.33 179.33 148.67 170.67 142 160 C135.33 149.33 52.33 132.33 54 124 C55.67 115.67 130.33 116.67 152 110 C173.67 103.33 180.67 96.67 184 84 C187.33 71.33 174 42.33 172 34" fill="none" stroke="#F2EDE3" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"></path><circle cx="100" cy="84" r="15" fill="#E2381F"></circle></g><text x="1141" y="0" font-family="Rethink Sans" font-weight="700" font-size="1000" letter-spacing="-20" fill="#F2EDE3">Groove Logic</text></svg></a>
+    <div style="display:flex;gap:32px;flex-wrap:wrap;font:500 14px 'Archivo',sans-serif"><a href="#work">Work</a><a href="#consulting">Consulting</a><a href="#contact">Contact</a></div>
+  </div>
+
+  <div style="display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:48px;padding:clamp(80px,14vw,180px) 0 clamp(80px,10vw,140px)">
+    <div style="flex:1 1 560px;display:flex;flex-direction:column;gap:36px;min-width:0">
+      <h1 style="margin:0;font:600 clamp(48px,7.2vw,104px)/.98 'Archivo',sans-serif;letter-spacing:-.035em;max-width:11ch;text-wrap:balance">Tools for professional music workflows.</h1>
+      <p style="margin:0;font:400 clamp(17px,1.5vw,20px)/1.5 'Archivo',sans-serif;color:#CFC9BC;max-width:44ch;text-wrap:pretty">Groove Logic makes software for people who work in music, on stage and in the studio.</p>
+    </div>
+    <div style="flex:0 1 220px;display:flex;justify-content:flex-end"><svg width="220" height="324" viewBox="47.99 28 142.54 210" style="display:block;max-width:100%;height:auto;overflow:visible" role="img" aria-label="Groove Logic mark"><path d="M68 232 C83 228.67 153.67 219.33 158 212 C162.33 204.67 96.67 196.67 94 188 C91.33 179.33 148.67 170.67 142 160 C135.33 149.33 52.33 132.33 54 124 C55.67 115.67 130.33 116.67 152 110 C173.67 103.33 180.67 96.67 184 84 C187.33 71.33 174 42.33 172 34" fill="none" stroke="#F2EDE3" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1.01" stroke-dashoffset="0"><animate attributeName="stroke-dashoffset" values="1.01;1.01;0" keyTimes="0;.12;1" dur="1.8s" begin="0s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;.5 0 .2 1"/></path><circle cx="100" cy="84" r="15" fill="#E2381F"><animate attributeName="r" values="0;0;18;15" keyTimes="0;.8;.92;1" dur="2.2s" begin="0s" fill="freeze"/></circle></svg></div>
+  </div>
+
+  <div id="work" style="display:flex;flex-direction:column;gap:clamp(56px,7vw,96px);padding-bottom:clamp(96px,12vw,160px)">
+    <div style="display:flex;flex-wrap:wrap;gap:24px 48px">
+      <div style="flex:1 1 220px;font:400 11px 'Fragment Mono',monospace;letter-spacing:.08em;color:#8E897C;padding-top:10px">WORK</div>
+      <div style="flex:3 1 560px"><div style="font:600 clamp(28px,3vw,40px)/1.1 'Archivo',sans-serif;letter-spacing:-.025em;max-width:22ch">Two things you can read about now.</div></div>
+    </div>
+
+    <div style="display:flex;flex-wrap:wrap;gap:24px 48px">
+      <div style="flex:1 1 220px;display:flex;flex-direction:column;gap:10px"><span style="font:400 11px 'Fragment Mono',monospace;letter-spacing:.08em;color:#8E897C">01</span></div>
+      <div style="flex:3 1 560px;display:flex;flex-wrap:wrap;gap:20px 48px">
+        <div style="flex:1 1 240px;display:flex;flex-direction:column;gap:14px">
+          <div style="font:600 clamp(32px,3.6vw,48px)/1 'Archivo',sans-serif;letter-spacing:-.03em">Cuetron</div>
+          <div style="display:flex;align-items:center;gap:10px;font:400 11px 'Fragment Mono',monospace;letter-spacing:.08em;color:#E2381F"><span style="width:7px;height:7px;border-radius:50%;background:#E2381F;flex:none"></span>COMING SOON</div>
+        </div>
+        <p style="flex:2 1 320px;margin:0;font:400 17px/1.55 'Archivo',sans-serif;color:#CFC9BC;max-width:52ch;text-wrap:pretty">A plugin for musical directors. It turns MIDI notes into spoken cues for in-ear monitors, so the band hears "Chorus" or "Stop" right when they need to. You set up a cue on each key, and play them from your DAW or a controller.</p>
+      </div>
+    </div>
+
+    <div style="display:flex;flex-wrap:wrap;gap:24px 48px">
+      <div style="flex:1 1 220px;display:flex;flex-direction:column;gap:10px"><span style="font:400 11px 'Fragment Mono',monospace;letter-spacing:.08em;color:#8E897C">02</span></div>
+      <div style="flex:3 1 560px;display:flex;flex-wrap:wrap;gap:20px 48px">
+        <div style="flex:1 1 240px;display:flex;flex-direction:column;gap:14px">
+          <div style="font:600 clamp(32px,3.6vw,48px)/1 'Archivo',sans-serif;letter-spacing:-.03em">Convey</div>
+          <div style="display:flex;align-items:center;gap:10px;font:400 11px 'Fragment Mono',monospace;letter-spacing:.08em;color:#8E897C"><span style="width:7px;height:7px;border-radius:50%;border:1px solid #8E897C;box-sizing:border-box;flex:none"></span>PRIVATE BETA</div>
+        </div>
+        <div style="flex:2 1 320px;display:flex;flex-direction:column;gap:22px">
+          <p style="margin:0;font:400 17px/1.55 'Archivo',sans-serif;color:#CFC9BC;max-width:52ch;text-wrap:pretty">For producers and mix engineers. You send your client one private link, and they can hear every mix, leave notes at the exact moment in the track, pay by card and download the final files. It's invite-only while we work with a small group of studios.</p>
+          <a href="https://convey.audio" target="_blank" rel="noopener" style="align-self:flex-start;display:flex;align-items:center;gap:8px;font:500 15px 'Archivo',sans-serif;padding-bottom:4px;border-bottom:1px solid #E2381F">convey.audio<span style="font-family:'Fragment Mono',monospace">↗</span></a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="consulting" style="display:flex;flex-wrap:wrap;gap:24px 48px;padding-bottom:clamp(96px,12vw,160px)">
+    <div style="flex:1 1 220px;font:400 11px 'Fragment Mono',monospace;letter-spacing:.08em;color:#8E897C;padding-top:10px">CONSULTING</div>
+    <div style="flex:3 1 560px;display:flex;flex-direction:column;gap:24px">
+      <div style="font:600 clamp(28px,3vw,40px)/1.1 'Archivo',sans-serif;letter-spacing:-.025em;max-width:22ch">For labels and music companies.</div>
+      <p style="margin:0;font:400 17px/1.55 'Archivo',sans-serif;color:#CFC9BC;max-width:52ch;text-wrap:pretty">Alongside the tools, I do consulting work for labels and music companies. If there's a part of how you work that could be simpler, I'm happy to talk it through.</p>
+      <a href="mailto:hello@groovelogic.audio" style="align-self:flex-start;font:500 15px 'Archivo',sans-serif;padding-bottom:4px;border-bottom:1px solid #E2381F">Get in touch</a>
     </div>
   </div>
 
+  <div id="contact" style="margin-top:auto;display:flex;flex-wrap:wrap;gap:32px 48px;align-items:flex-end;padding:0 0 40px">
+    <div style="flex:1 1 220px"><svg width="44" height="65" viewBox="47.99 28 142.54 210" style="display:block"><path d="M68 232 C83 228.67 153.67 219.33 158 212 C162.33 204.67 96.67 196.67 94 188 C91.33 179.33 148.67 170.67 142 160 C135.33 149.33 52.33 132.33 54 124 C55.67 115.67 130.33 116.67 152 110 C173.67 103.33 180.67 96.67 184 84 C187.33 71.33 174 42.33 172 34" fill="none" stroke="#F2EDE3" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"></path><circle cx="100" cy="84" r="15" fill="#E2381F"></circle></svg></div>
+    <div style="flex:3 1 560px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px 32px;font:400 11px/1.8 'Fragment Mono',monospace;letter-spacing:.06em;color:#8E897C">
+      <a href="mailto:hello@groovelogic.audio" style="color:#F2EDE3">HELLO@GROOVELOGIC.AUDIO</a>
+      <span>TOOLS FOR PROFESSIONAL MUSIC WORKFLOWS</span>
+      <span>© 2026 GROOVE LOGIC</span>
+    </div>
+  </div>
+</div>
 </body>
 </html>
